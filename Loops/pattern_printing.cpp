@@ -275,36 +275,39 @@ int main(){
     // }
 
 
-    // 12345
-    //   *     1
-    //  ***    2
-    // *****   3
-    //  ***    4
-    //   *     5
 
-    // 2 1 2
-    // 1 3 1
-    // 0 5 0
-    // 1 3 1
-    // 2 1 2
+    // // 12345
+    // //   *     1
+    // //  ***    2
+    // // *****   3
+    // //  ***    4
+    // //   *     5
 
+    // // 2 1 2
+    // // 1 3 1
+    // // 0 5 0
+    // // 1 3 1
+    // // 2 1 2
 
-    // TO BE CONTINUED.....
-    int n;
-    cout<< "Enter the value of n: ";
-    cin>> n;
-    for (int i = 1; i<=n; i++){
-        for (int j = 1; j<=(n-i); j++){
-            cout<< " ";
-        }
-        for (int k = 1; k<=(2*i-1); k++){
-            cout<< "*";
-        }
-        for (int l = 1; l<=(n-i); l++){
-            cout<< " ";
-        }
-        cout<< endl;
-    }
+    // int n;
+    // cout<< "Enter the value of n: ";
+    // cin>> n;
+    // int mid = (n/2)+1;
+    // for (int i = 1; i<=n; i++){
+    //     int m;
+    //     if(i<mid) m = mid-i;
+    //     else m = i-mid;
+    //     for (int j = 1; j<=m; j++){
+    //         cout<< " ";
+    //     }
+    //     for (int k = 1; k<=(n-(2*m)); k++){
+    //         cout<< "*";
+    //     }
+    //     for (int l = 1; l<=m; l++){
+    //         cout<< " ";
+    //     }
+    //     cout<< endl;
+    // }
 
 
 }
